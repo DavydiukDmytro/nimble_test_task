@@ -1,1 +1,0 @@
-import{r as s,a as o,j as r}from"./index-B0V9d-tC.js";const c=()=>{const[e,a]=s.useState(10),t=o();return s.useEffect(()=>{const n=setInterval(()=>{e!==0?a(e-1):t("/",{replace:!0})},1e3);return()=>{clearInterval(n)}},[e,t]),r.jsxs(r.Fragment,{children:["The requested page does not exist. You will be redirected to the main page in ",e," seconds!"]})};export{c as default};
